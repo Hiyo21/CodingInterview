@@ -60,5 +60,16 @@ namespace CodingInterview.BigONotation
                 }
             }
         }
+
+        void practiceProblem4(int[] arrayA, int[] arrayB)
+        {
+            for (int i = 0; i < arrayA.Length; i++)
+            {
+                for (int j = 0; j < arrayB.Length; j++)
+                {
+                    Console.WriteLine(arrayA[i] + arrayB[j]);
+                }
+            }
+        }
     }
 }
